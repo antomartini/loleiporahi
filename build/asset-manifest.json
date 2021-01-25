@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/loleiporahiv2/static/css/main.79309823.chunk.css",
-    "main.js": "/loleiporahiv2/static/js/main.80008491.chunk.js",
-    "main.js.map": "/loleiporahiv2/static/js/main.80008491.chunk.js.map",
-    "runtime-main.js": "/loleiporahiv2/static/js/runtime-main.29c0689b.js",
-    "runtime-main.js.map": "/loleiporahiv2/static/js/runtime-main.29c0689b.js.map",
-    "static/js/2.e8badd6c.chunk.js": "/loleiporahiv2/static/js/2.e8badd6c.chunk.js",
-    "static/js/2.e8badd6c.chunk.js.map": "/loleiporahiv2/static/js/2.e8badd6c.chunk.js.map",
-    "static/js/3.24a4deaf.chunk.js": "/loleiporahiv2/static/js/3.24a4deaf.chunk.js",
-    "static/js/3.24a4deaf.chunk.js.map": "/loleiporahiv2/static/js/3.24a4deaf.chunk.js.map",
+    "main.css": "/loleiporahiv2/static/css/main.2f39bb40.chunk.css",
+    "main.js": "/loleiporahiv2/static/js/main.8ee8536d.chunk.js",
+    "main.js.map": "/loleiporahiv2/static/js/main.8ee8536d.chunk.js.map",
+    "runtime-main.js": "/loleiporahiv2/static/js/runtime-main.59aa67ab.js",
+    "runtime-main.js.map": "/loleiporahiv2/static/js/runtime-main.59aa67ab.js.map",
+    "static/js/2.4b07c82c.chunk.js": "/loleiporahiv2/static/js/2.4b07c82c.chunk.js",
+    "static/js/2.4b07c82c.chunk.js.map": "/loleiporahiv2/static/js/2.4b07c82c.chunk.js.map",
+    "static/js/3.19fa7203.chunk.js": "/loleiporahiv2/static/js/3.19fa7203.chunk.js",
+    "static/js/3.19fa7203.chunk.js.map": "/loleiporahiv2/static/js/3.19fa7203.chunk.js.map",
     "index.html": "/loleiporahiv2/index.html",
-    "static/css/main.79309823.chunk.css.map": "/loleiporahiv2/static/css/main.79309823.chunk.css.map",
-    "static/js/2.e8badd6c.chunk.js.LICENSE.txt": "/loleiporahiv2/static/js/2.e8badd6c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/loleiporahiv2/static/media/escritorio.5ce74ae8.png"
+    "static/css/main.2f39bb40.chunk.css.map": "/loleiporahiv2/static/css/main.2f39bb40.chunk.css.map",
+    "static/js/2.4b07c82c.chunk.js.LICENSE.txt": "/loleiporahiv2/static/js/2.4b07c82c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/loleiporahiv2/static/media/standing.e73a9b38.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.29c0689b.js",
-    "static/js/2.e8badd6c.chunk.js",
-    "static/css/main.79309823.chunk.css",
-    "static/js/main.80008491.chunk.js"
+    "static/js/runtime-main.59aa67ab.js",
+    "static/js/2.4b07c82c.chunk.js",
+    "static/css/main.2f39bb40.chunk.css",
+    "static/js/main.8ee8536d.chunk.js"
   ]
 }
