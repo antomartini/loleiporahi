@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css2?family=Knewave&display=swap);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+
+body:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 100%;
+}
+
+h1 {
+  display: inline-block;
+  color: #FC7750;
+  font-family: 'Righteous', serif;
+  font-size: 5em; 
+  text-shadow: .03em .03em 0 #f0a7a0;
+}
+
+.titleStyle {
+  font-size: 5em; 
+	    text-align: center;
+	    color: #fcedd8;
+      font-family: 'Knewave', cursive;
+	    font-weight: 700;
+      text-shadow: 5px 5px 0px #eb452b, 
+      10px 10px 0px #efa032, 
+      15px 15px 0px #46b59b,
+       20px 20px 0px #017e7f, 25px 25px 0px #c11a2b, 30px 30px 0px #fc7750;
+}
+
+.cantidadQuotesText {
+  font-size: 3em; 
+	    text-align: center;
+	    color: #fc7750;
+      font-family: 'Knewave', cursive;
+      text-shadow: 2px 2px 0px #efa032, 
+}

@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 100%; 
+}
+
+.backgroundQuote {
+  background-image: url(./images/escritorio.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-attachment: fixed;
+  background-size: 50%;
+}
+.backgroundAboutMe {
+  background-image: url(./images/standing.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: 18%;
+}
+
+.backgroundForm {
+  background-image: url(./images/sobreformulario.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: 35%;
+}
+
+.backgroundIniciativa {
+  background-image: url(./images/livingroom.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: 25%;
+}
+
+.mainContainer{
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+}
+
+.containerSuperior{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.nav-container{
+    font-size: 150%;
+    text-transform: uppercase;
+    color: #d60000;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+  font-family: 'Righteous', serif;
+  margin:5%;
+  text-decoration: none;
+  color: #d60000 !important;
+  text-align: center;
+}
+
+.buttonContainer{
+  max-height: 10%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: end;
+  margin-right: 5%;
+}
+
+#get-another-quote-button {
+  text-decoration: none;
+  color: #FC7750;
+  border: 3px dotted #FC7750;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+  background: #fff;
+  margin-left: 85%;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.quotesCant {
+  position: fixed;
+    margin-left: 60%;
+    margin-bottom: 1%;
+}
