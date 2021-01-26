@@ -15,7 +15,7 @@ function App() {
     const [visibleButton, setVisibleButton] = useState(true);
     const [loadQuote, setLoadQuote] = useState(false);
     const history = createBrowserHistory();
-    
+
     // Inicializo la aplicacion con una frase estatica
     const [quote, setQuote] = useState({
         book: "Rayuela",
@@ -47,7 +47,7 @@ function App() {
     // Navegacion entre paginas
     function navigateHome() {
         setVisibleButton(true);
-        document.getElementById('body').className = 'backgroundQuote';       
+        document.getElementById('body').className = 'backgroundQuote';
     }
 
     function navigateAboutMe() {
@@ -67,16 +67,15 @@ function App() {
 
     function setConfig() {
         console.log(history.location.pathname);
-        if (history.location.pathname !== '/loleiporahi/') {
+        if (history.location.pathname === '/loleiporahi/about' ||
+            history.location.pathname === '/loleiporahi/iniciativa' ||
+            history.location.pathname === '/loleiporahi/form' ) {
             setVisibleButton(false);
-        }
-        if (history.location.pathname === '/loleiporahi') {
-            setVisibleButton(true);
-        }
+        } else setVisibleButton(true);
     }
 
     useEffect(setConfig, visibleButton);
-    
+
     return (
         <BrowserRouter>
             <div className="containerSuperior">
