@@ -79,7 +79,7 @@ function App() {
                 <div className="header-container">
                     <Header />
                     <div className="nav-container">
-                        <NavLink className="navlink" to="/" onClick={navigateHome}>Home</NavLink>
+                        <NavLink className="navlink" to="/loleiporahi/" onClick={navigateHome}>Home</NavLink>
                         <NavLink className="navlink" to="/loleiporahi/about" onClick={navigateAboutMe} >Sobre Mi</NavLink>
                         <NavLink className="navlink" to="/loleiporahi/iniciativa" onClick={navigateIniciativa} >Conoce mas</NavLink>
                         <NavLink className="navlink" to="/loleiporahi/form" onClick={navigateForm} >Comparti tu frase!</NavLink>
@@ -99,6 +99,7 @@ function App() {
                         <Route path="/loleiporahi/about"><AboutMe /></Route>
                         <Route path="/loleiporahi/iniciativa"><Razones /></Route>
                         <Route path="/loleiporahi/form"><FormularioContacto /></Route>
+                        <Route path="/loleiporahi/"><BookQuotes quote={quote} /></Route>
                         <Route path="/"><BookQuotes quote={quote} /></Route>
                     </Switch>
                 </div>
