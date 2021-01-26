@@ -66,10 +66,11 @@ function App() {
     }
 
     function setConfig() {
-        if (history.location.pathname !== '/') {
+        console.log(history.location.pathname);
+        if (history.location.pathname !== '/loleiporahi/') {
             setVisibleButton(false);
         }
-        if (history.location.pathname === '/loleiporahi/') {
+        if (history.location.pathname === '/loleiporahi') {
             setVisibleButton(true);
         }
     }
@@ -103,7 +104,6 @@ function App() {
                         <Route path="/loleiporahi/iniciativa"><Razones /></Route>
                         <Route path="/loleiporahi/form"><FormularioContacto /></Route>
                         <Route path="/loleiporahi/"><BookQuotes quote={quote} /></Route>
-                        <Route path="/"><BookQuotes quote={quote} /></Route>
                     </Switch>
                 </div>
             </div>
