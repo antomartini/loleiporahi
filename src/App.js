@@ -69,6 +69,9 @@ function App() {
         if (history.location.pathname !== '/') {
             setVisibleButton(false);
         }
+        if (history.location.pathname === '/loleiporahi/') {
+            setVisibleButton(true);
+        }
     }
 
     useEffect(setConfig, visibleButton);
