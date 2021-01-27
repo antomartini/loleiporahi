@@ -24,7 +24,7 @@ function App() {
     });
 
     // Cargo la imagen del background
-    useEffect(() => visibleButton ? document.getElementById('body').className = 'backgroundQuote' : null, []);
+    useEffect(() => visibleButton ? document.getElementById('main').className = 'backgroundQuote' : null, []);
 
     // Cargo otra frase
     function handleClick() {
@@ -47,21 +47,25 @@ function App() {
     // Navegacion entre paginas
     function navigateHome() {
         setVisibleButton(true);
-        document.getElementById('body').className = 'backgroundQuote';
+        document.getElementById('main').className = 'backgroundQuote';
+        document.getElementById('body').className = null;
     }
 
     function navigateAboutMe() {
         setVisibleButton(false);
+        document.getElementById('main').className = 'mainBackground';
         document.getElementById('body').className = 'backgroundAboutMe';
     }
 
     function navigateIniciativa() {
         setVisibleButton(false);
+        document.getElementById('main').className = 'mainBackground';
         document.getElementById('body').className = 'backgroundIniciativa';
     }
 
     function navigateForm() {
         setVisibleButton(false);
+        document.getElementById('main').className = 'mainBackground';
         document.getElementById('body').className = 'backgroundForm';
     }
 
@@ -89,10 +93,10 @@ function App() {
                     </div>
                 </div>
                 {visibleButton ? <div class="buttonContainer">
-                    <button id="get-another-quote-button"
+                    <p id="get-another-quote-button"
                         onClick={handleClick}>
                         DAME OTRA FRASE!
-                        </button> </div>
+                        </p> </div>
                     : null
                 }
             </div>

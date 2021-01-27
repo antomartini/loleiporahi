@@ -18,7 +18,7 @@ function AboutMe(props) {
                     Mi pelo generalmente es un desastre. Muy enredado como la vida misma.
                     Soy fan y amante de la cerveza. Me gusta sacar fotos a la naturaleza y mirar la luna.
                </p>
-                <br /><br /><br />
+                <br />
                 <div className="classGustos"><GiBeerStein /> <GiBookshelf /> <GiWhiteCat /> <GiPizzaSlice /> <GiMoon /> <GiTreeBranch /> </div>
             </div>
         </div>

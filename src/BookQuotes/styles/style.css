@@ -9,35 +9,36 @@
 }
 
 .cajavacia{
-  width: 60%;
+  width: 50%;
 }
 
 .post {
-  width: 29%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.post::before, .post::after {
-    position: absolute;
-    top: 10px;
-    font-size: 250px;
-    color: #DDB0C8;
-    font-family: 'Abhaya Libre';
-    line-height: 200px;
-    position: absolute;
-}
-
-.post::before {
-    left: -120px;
-    content: "\201c";
-}
-
-.post::after {
-    right: -100px;
-    content: "\201d";
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  transition: all 235ms ease 0s;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+  transition: all 235ms ease-in-out 0s;
+  color: #41403e;
+  color: var(--primary);
+  border-color: #41403e;
+  border-color: var(--primary);
+  background-color: #fff;
+  align-self: center;
+  background-image: none;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  outline: none;
+  padding: 1%;
 }
 
 #quote-content {
@@ -52,7 +53,7 @@
 #quote-title-dash, #quote-title {
     font-size: 26px;
     text-transform: uppercase;
-    color: #FC7750;
+    color: #D60000;
     font-weight: bold;
 }
 
@@ -60,7 +61,7 @@
     float: right;
     line-height: 26px;
     font-size: 18px;
-    color: #FC7750;
+    color: #D60000;
     font-weight: bold;
 }
 

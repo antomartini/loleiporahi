@@ -3,9 +3,20 @@ import "../styles/headerStyle.css"
 
 const Header = () => {
     return (
-        <header className="headerContainer">
-            <h1 data-shadow='LO LEI' className="titleStyle"> LO LEI POR AHI</h1>
-        </header>
+        <div class="contentHeader">
+            <div class="content__container">
+                <p class="content__container__text">
+                    Lo lei por ahi
+                </p>
+
+                <ul class="content__container__list">
+                    <li class="content__container__list__item">.</li>
+                    <li class="content__container__list__item">en un libro</li>
+                    <li class="content__container__list__item">en la calle</li>
+                    <li class="content__container__list__item">en twitter</li>
+                </ul>
+            </div>
+        </div>
     )
 
 }
