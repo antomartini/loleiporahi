@@ -1,7 +1,7 @@
 const quotes = [
-    { 
-        author: "Tinieblas",
+    {   
         book: "Javier del Ponte",
+        author: "Tinieblas", 
         quote: "Pero como siempre sucede, el amor suele ser un heroe o villano segun sea correspondido o no y, en ese ultimo caso, causar estragos en una persona."
     }, 
     {
@@ -13,6 +13,11 @@ const quotes = [
         book: "Renovatio",
         author: "Javier del Ponte",
         quote: "—¿Qué pierdo...? La verdad no sé qué pierdo si no lo como en el momento, pero hay que aprovechar cuando uno tiene las cosas y disfrutarlas, porque un día pueden no estar y podemos arrepentirnos de no haberlas disfrutado lo suficiente."
+    },
+    {
+        book: "Renovatio",
+        author: "Javier del Ponte",
+        quote: "(...)En ese momento, deseó fervientemente ser un rayo. Más bien deseó todas las cualidades que poseía, una vida elegante e imponente, una fuerza inigualable para destruir todo cuanto se cruzara en su camino, reducir a cenizas a cualquiera que se le enfrentara, para luego morir, morir en la gloria y con el orgullo de haber brillado e iluminado a la noche mostrando toda su potencia..."
     },
     {
         book: "Renovatio",
@@ -71,19 +76,19 @@ const quotes = [
 
     },
     {
-        book:"Titulo: Alma de Heroe y Corazon de Rey I - Hilos del Destino",
+        book:"Alma de Heroe y Corazon de Rey I - Hilos del Destino",
         author:"Daniela Suarez",
         quote:"―¡Sí, muchacho! Tú has demostrado que “imposible” es apenas una palabra que usan los débiles para vivir derrotados y nos enseñaste con valor que no hay que temer a los desafíos ―sonrió Dorél. ―Si has de morir, hazlo, pero que sea peleando por tus sueños y alcanzando la cima, porque creer es el secreto ―murmuró Idilin. "
 
     },
     {
-        book:"Titulo: Alma de Heroe y Corazon de Rey I - Hilos del Destino",
+        book:"Alma de Heroe y Corazon de Rey I - Hilos del Destino",
         author:"Daniela Suarez",
         quote:" ―¿Crees en el destino y en los sueños? Pensé que solamente los elfos lo hacíamos. ― Los mortales también necesitamos creer en algo…, quizá aferrarnos al pensamiento que no somos dueños del futuro, porque todo está escrito en las estrellas, nos quite la responsabilidad de la desdicha que nos toque vivir a causa de nuestros actos. "
 
     },
     {
-        book:"Titulo: Alma de Heroe y Corazon de Rey I - Hilos del Destino",
+        book:"Alma de Heroe y Corazon de Rey I - Hilos del Destino",
         author:"Daniela Suarez",
         quote:"―Esa es la cruel trampa del azar, uno no elige de quién enamorarse, el sentimiento llega y se instala dentro…, desde entonces tenemos la responsabilidad de hacer lo imposible para lograr que el corazón del amado nos corresponda. Es como un desafío de la vida, si lo superas el premio es la felicidad, y si fallas el dolor del fracaso te corresponde. No te resistas si en algún momento toca a tu puerta, es mejor probar y fracasar, que perder sin haber intentado el éxito, tal vez no suene muy alentador pero en el futuro la pregunta, ¿qué pudo haber pasado?, no existirá." 
 
@@ -129,6 +134,63 @@ const quotes = [
         quote:"—Cami —le repetía Alicia—, vos podés hacer lo que desees con tu vida. Los elementos que Dios o el cosmos te dio están en tu carta natal, es verdad. Pero lo divertido de esto es que, como somos seres conscientes, podemos hacer lo que se nos dé la gana, aunque los planetas no estén alineados de la mejor manera."
 
     },
+    {
+        book:"Purgatorio",
+        author:"Nathalia Tortora",
+        quote:"Abandonaron las tazas de té sobre la mesa. Una vacía y una llena, una amarga y la otra dulce. Dos opuestos con tantas similitudes como diferencias, al igual que Anahí e Irina. Un reflejo de sus personalidades."
+
+    },
+    {
+        book:"Purgatorio",
+        author:"Nathalia Tortora",
+        quote:"Él había conocido a alguien así en el pasado, a una persona con el arrasador poder de un tornado, capaz de encandilar y destruir, de ser paraíso y tormento. Un alma contradictoria, destinada a convertirse en el próximo terremoto que sacudiría el pensamiento de quien se le acercara. Un espíritu capaz de cambiarlo todo."
+    },
+    {
+        book:"Luminosa",
+        author:"Gilda Manso",
+        quote:"Supongamos que una madrugada, una suerte misteriosa deja en tu puerta tu deseo hecho realidad. ¿Lo aceptarías?"
+    },
+    {
+        book:"Boquitas Pintadas",
+        author:"Manuel Puig",
+        quote:"En este momento te agarraría de la mano y te llevaría hasta el cielo, o por lo menos ha alguna parte lejos de acá."
+    },
+    {
+        book:"Boquitas Pintadas",
+        author:"Manuel Puig",
+        quote:"Cabe, aquí, la reflexión filosófica: ¡Cuántos, cuántos solemos andar por este histriónico mundo llegando diariamente al final de la etapa sin lograr saber qué papel hemos estado desempeñando en el escenario de la vida!"
+    },
+    {
+        book:"Boquitas Pintadas",
+        author:"Manuel Puig",
+        quote:"Vos ahora olvidate de todo esto, que a vos no te toca, vos sos sana, no te entran ni las balas, dura, sos como el diamantito que tienen en la ferretería para cortar los vidrios, aunque los diamantes son sin color como un vaso sin vino, mejor llenita de vino, coloradita entonces, como un rubí, mi vida."
+    },
+    {
+        book:"La invencion de Morel",
+        author:"Adolfo Bioy Casares",
+        quote:"No espero nada. Esto no es horrible. Después de resolverlo, he ganado tranquilidad. Pero esa mujer me ha dado una esperanza. Debo temer las esperanzas. Tal vez toda esa higiene de no esperar sea un poco ridícula. No esperar de la vida, para no arriesgarla; darse por muerto, para no morir. Ya no estoy muerto: estoy enamorado."
+    },
+    {
+        book:"La invencion de Morel",
+        author:"Adolfo Bioy Casares",
+        quote:"Nada anunció que me hubiera visto. Ni un parpadeo, ni un leve sobresalto. Todavía el sol estaba arriba del horizonte (no el sol; La apariencia del sol; Era ese momento en que ya se ha puesto, o va a ponerse, y uno lo ve donde no está). Yo había escalado con urgencia las piedras. La vi: el pañuelo de colores, las manos cruzadas sobre una rodilla, su mirada, aumentando el mundo. Mi respiración se volvió irreprimible."
+    },
+    {
+        book:"Los ojos del perro siberiano",
+        author:"Antonio Santa Ana",
+        quote:"Uno nunca termina de conocer del todo a las personas, ni aún a las más cercanas [...]. Siempre hay una zona de cada uno que permanece a oscuras, alejada por completo de los demás. Una zona de pensamientos, de actividades, de cualquier cosa. Pero siempre hay un lugar de nosotros en el que no dejamos que entre nadie más. Yo creo que eso es lo que hace a las relaciones con los demás tan interesantes, esa certeza de que, aunque nos lo propongamos, nunca los vamos a conocer del todo"
+    },
+    {
+        book:"Los ojos del perro siberiano",
+        author:"Antonio Santa Ana",
+        quote:"Yo ya no soy el mismo.Ya no pregunto cómo será mi destino.Le debo a Ezequiel el haberme enseñado que la vida no es más que eso: asomar la cabeza, para ver qué pasa fuera, aunque haya tormenta. Y una Suite de Bach"
+    },
+    {
+        book:"Los ojos del perro siberiano",
+        author:"Antonio Santa Ana",
+        quote:"Yo creo que eso es lo que hace a las relaciones con los demás tan interesantes: esa certeza de que, aunque nos lo propongamos, nunca los vamos a conocer del todo."
+    },    
+    
 ]
 
 export default quotes

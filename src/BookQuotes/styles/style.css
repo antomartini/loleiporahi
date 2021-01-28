@@ -10,11 +10,11 @@
 }
 
 .cajavacia{
-  width: 50%;
+  width: 45%;
 }
 
 .post {
-  width: 45%;
+  width: 48%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,23 +23,21 @@
   border-bottom-right-radius: 225px 15px;
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
+  border-color: #41403e;
+  border-style: solid;
   transition: all 235ms ease 0s;
   box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
   transition: all 235ms ease-in-out 0s;
   color: #41403e;
-  color: var(--primary);
-  border-color: #41403e;
-  border-color: var(--primary);
   background-color: #fff;
   align-self: center;
-  background-image: none;
-  border-style: solid;
   border-width: 2px;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
   outline: none;
-  padding: 1%;
+  padding: 2%;
+  margin-bottom: 3%;
 }
 
 #quote-content {

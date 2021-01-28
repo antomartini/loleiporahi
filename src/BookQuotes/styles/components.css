@@ -1,24 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url(https://fonts.googleapis.com/css2?family=Knewave&display=swap);
 
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: relative;
-  }
-
-body:before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 0;
-    height: 100%;
-}
-
-
 .cantidadQuotesText {
-  font-size: 2em; 
+  font-size: 150%; 
 	text-align: center;
 	color: #D60000;
   font-family: 'Knewave', cursive;
@@ -26,8 +10,6 @@ body:before {
 }
 
 .contentHeader {
-  
-  height: 160px;
   overflow: hidden;
   font-family: "Lato", sans-serif;
   font-size: 50px;
@@ -35,21 +17,26 @@ body:before {
   color: #0c4444;
   padding-top: 2%;
 }
+
 .content__container {
   font-weight: 600;
   overflow: hidden;
   height: 40px;
   padding: 0 40px;
+  position: relative;
 }
+
 .content__container:before {
   content: "[";
   left: 0;
 }
+
 .content__container:after {
   content: "]";
   position: absolute;
   right: 0;
 }
+
 .content__container:after, .content__container:before {
   position: absolute;
   top: 0;
@@ -63,11 +50,13 @@ body:before {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+
 .content__container__text {
   display: inline;
   float: left;
   margin: 0;
 }
+
 .content__container__list {
   margin-top: 0;
   padding-left: 320px;
@@ -80,6 +69,7 @@ body:before {
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+
 .content__container__list__item {
   line-height: 40px;
   margin: 0;

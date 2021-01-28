@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import "../styles/headerStyle.css"
+import "../styles/components.css"
 import quotes from "../quotes/quotes"
 
 const QuotesCant = () => {
@@ -13,7 +13,7 @@ const QuotesCant = () => {
 
     return (
         <div className="quotesCant">
-            <p className="cantidadQuotesText">Hay {cantQuotes} frases para que leas!</p>
+            <p className="cantidadQuotesText">¡Hay {cantQuotes} frases para que leas!</p>
         </div>
     )
 }

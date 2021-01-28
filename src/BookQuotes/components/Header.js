@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/headerStyle.css"
+import "../styles/components.css"
 
 const Header = () => {
     return (
@@ -8,7 +8,6 @@ const Header = () => {
                 <p class="content__container__text">
                     Lo lei por ahi
                 </p>
-
                 <ul class="content__container__list">
                     <li class="content__container__list__item">.</li>
                     <li class="content__container__list__item">en un libro</li>
@@ -18,7 +17,6 @@ const Header = () => {
             </div>
         </div>
     )
-
 }
 
 export default Header

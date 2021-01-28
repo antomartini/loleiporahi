@@ -1,13 +1,12 @@
 import React from "react"
-import "../styles/razonesStyle.css"
+import "../styles/aboutandreasons.css"
 import { GiBeerStein, GiBookshelf, GiWhiteCat, GiPizzaSlice, GiMoon, GiTreeBranch } from 'react-icons/gi';
 
 function AboutMe(props) {
     return (
         <div className="aboutme">
             <div className="cardContent">
-                <p className="classHola">Hey, hola!</p>
-                <br />
+                <p className="classHola">¡Hey, hola!</p>
                 <p className="aboutmeStyle">
                     Si hay una cosa en las que me considero que soy terrible es en las presentaciones.
                     Soy Anto, tengo 25 otoños y me gusta muchisimo explorar, innovar y crear cosas nuevas.
