@@ -7,14 +7,21 @@
     max-width: 55%;
     position: relative;
     margin: 2% auto;
-    box-shadow: 0 0 20px #000;
     padding: 2%;
     font-family: 'Shadows Into Light Two', serif;
-    border-style: dashed;
+    border-style: solid;
     border-width: 1%;
     border-color: #FC7750 ;
     background-color: #fcedd8;
     font-size: 150% !important;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+    transition: all 235ms ease-in-out 0s;
+    color: #41403e;
+    background-color: #fff;
 }
 
 .classHola {
