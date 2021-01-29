@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { BrowserRouter, NavLink, Route, Switch, useLocation } from "react-router-dom";
+import { BrowserRouter, NavLink, Route, Switch} from "react-router-dom";
 import "./App.css"
 import AboutMe from "./BookQuotes/pages/AboutMe";
 import BookQuotes from "./BookQuotes/pages/BookQuotes";
@@ -16,7 +16,7 @@ function App() {
     const [loadQuote, setLoadQuote] = useState(false);
     const history = createBrowserHistory();
 
-    // Inicializo la aplicacion con una frase estatica
+    // Inicializo la aplicacion con una frase predeterminada
     const [quote, setQuote] = useState({
         book: "Rayuela",
         author: "Julio Cortazar",
