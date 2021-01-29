@@ -23,7 +23,7 @@ function App() {
         quote: "“¿A vos no te pasa que te despertás a veces con la exacta conciencia de que en ese momento empieza una increíble equivocación?”",
     });
 
-    // Cargo la imagen del background
+    // Cargo background
     useEffect(() => visibleButton ? document.getElementById('main').className = 'backgroundQuote' : null, []);
 
     // Cargo otra frase
