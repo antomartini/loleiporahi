@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/loleiporahi/static/css/main.c4c3dbec.chunk.css",
-    "main.js": "/loleiporahi/static/js/main.6a6b1435.chunk.js",
-    "main.js.map": "/loleiporahi/static/js/main.6a6b1435.chunk.js.map",
+    "main.js": "/loleiporahi/static/js/main.2f52be73.chunk.js",
+    "main.js.map": "/loleiporahi/static/js/main.2f52be73.chunk.js.map",
     "runtime-main.js": "/loleiporahi/static/js/runtime-main.013ff8fd.js",
     "runtime-main.js.map": "/loleiporahi/static/js/runtime-main.013ff8fd.js.map",
     "static/js/2.4d2e7255.chunk.js": "/loleiporahi/static/js/2.4d2e7255.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.013ff8fd.js",
     "static/js/2.4d2e7255.chunk.js",
     "static/css/main.c4c3dbec.chunk.css",
-    "static/js/main.6a6b1435.chunk.js"
+    "static/js/main.2f52be73.chunk.js"
   ]
 }
